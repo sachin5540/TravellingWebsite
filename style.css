@@ -1,0 +1,414 @@
+/* ..Google Fonts.. */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Noto+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER CSS  */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../TTTimages/homepageimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 2;
+}
+
+nav {
+    position: absolute;
+    background-color: rgba(39, 138, 138, 0.2);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 19px;
+    letter-spacing: 4px;
+    text-shadow: 2px 1px 5px aqua;
+}
+
+nav .menu {
+    margin-right: 100px;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: aqua;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    transition: 0.4s;
+    background: transparent;
+    border-radius: 25px;
+}
+
+/* main elements */
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section #firstpage {
+    position: relative;
+    bottom: 90px;
+}
+
+.home h3 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.home h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 5px black;
+    margin: 20px 0 20px 0;
+
+}
+
+.home p {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 30px;
+}
+
+.home a {
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-family: BOLD;
+    color: black;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    background-color: rgba(9, 247, 247, 0.2);
+}
+
+.home .explore:hover,
+.book:hover {
+    background-color: rgba(17, 5, 184, 0.2);
+    color: aqua;
+    font-family: bold;
+    background: black;
+}
+
+.change_content:after {
+    content: '';
+    animation: changetext 15s linear infinite;
+    color: aqua;
+}
+
+@keyframes changetext {
+    0% {
+        content: "AYODHYA";
+    }
+
+    10% {
+        content: "MATHURA";
+    }
+
+    20% {
+        content: "LUCKNOW";
+    }
+
+    35% {
+        content: "AGRA";
+    }
+
+    50% {
+        content: "VARANASI";
+    }
+
+    70% {
+        content: "GORAKHPUR";
+    }
+
+    80% {
+        content: "VRINDAVAN";
+    }
+
+    100% {
+        content: "KAPILVASTU";
+    }
+}
+
+/* Dstination page as second pages */
+
+.destination-heading span {
+    color: aqua;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+
+.destination-heading {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 1px 5px aqua;
+}
+
+.image img {
+    width: 25vw;
+    HEIGHT: 240PX;
+    border-radius: 15px;
+}
+
+.content h3 {
+    color: aqua;
+}
+
+.content p {
+    color: white;
+}
+
+/* box destination display css */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-container .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25vw;
+}
+
+/* HOVER EFFECT */
+.image:hover {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(4, 247, 247, 0.507);
+    transition-duration: 0.1s;
+}
+
+/* about section css */
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.video-container {
+    DISPLAY: FLEX;
+    gap: 51px;
+}
+
+.video {
+    border-radius: 15px;
+    WIDTH: 500PX;
+    MARGIN-LEFT: 64PX;
+    box-shadow: 0 10px 20px rgba(4, 247, 247, 0.507);
+}
+
+.about-content span {
+    color: aqua;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-shadow: 2px 1px 5px aqua;
+}
+
+.about-content P {
+    color: white;
+}
+
+.btn {
+    color: aqua;
+    MARGIN-LEFT: 188PX;
+    padding: 5px;
+    /* text-shadow: 1px 1px 2px aqua; */
+}
+
+.btn:hover {
+    color: aqua;
+    border: 1PX solid aqua;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(4, 247, 247, 0.507);
+}
+
+/* BOOK NOW SECTION STARTS */
+.book-heading {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-shadow: 2px 1px 5px aqua;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.up-booking {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.booking-image {
+    width: 529px;
+    flex: 1;
+    justify-content: center;
+}
+
+.uplogoimage {
+    width: 529px;
+
+}
+
+.booking-form {
+    flex: 1;
+}
+
+.input {
+    width: 70%;
+    color: WHITE;
+    background: transparent;
+    BORDER: 2PX SOLID AQUA;
+    BORDER-RADIUS: 7PX;
+    MARGIN-TOP: 55PX;
+    PADDING: 15PX;
+    box-shadow: 0 10px 20px rgba(4, 247, 247, 0.507);
+}
+
+.option {
+    color: black;
+}
+
+/* book now section end */
+/* explore section start */
+
+.Explore-heading {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-shadow: 2px 1px 5px aqua;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.slide img {
+    height: 225px;
+    width: 370px;
+    border-radius: 27px;
+    box-shadow: 0 10px 20px rgba(4, 247, 247, 0.507);
+}
+
+.slide img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    transition-duration: 0.1s;
+}
+
+.slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* footer section */
+.social-link{
+    display: flex;
+}
+.social-link ul{
+    padding: 50px;
+    display: flex;
+    height: 126px;
+    width: 393px;
+    margin: auto;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: aqua;
+}
+
+.quick-link{
+    display: flex;
+    width: 519px;
+    height: 70px;
+    margin: auto;
+}
+.quick-link ul{
+    display: flex;
+}
+.quick-link a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: white;
+}
+.quick-link a:hover{
+    color: aqua;
+    border-bottom: 2px  solid aqua;
+    transition: 0.4s;
+}
+
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+    background-color: rgba(39, 138, 138, 0.2);
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Trek Trip</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/c54c655f6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Tour<sub>Trek</sub>Trip</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="menu-hover" href="#firstpage">Home</a></li>
+                    <li><a class="menu-hover" href="#destination">Destination</a></li>
+                    <li><a class="menu-hover" href="#about">About Us</a></li>
+                    <li><a class="menu-hover" href="#booking">Book Now</a></li>
+                    <li><a class="menu-hover" href="#explore">Explore</a></li>
+                </ul>
+        </nav>
+        <main>
+            <section id="firstpage" class="home">
+                <h3>U.P. Nahi Dekha Toh India Nahi Dekha.</h3>
+                <h1>EXPLORE, ADVENTURE & VISIT TO <span class="change_content"></span></h1>
+                <p>'Uttar Pradesh: Amazing heritage, grand experiences'</p>
+                <a href="#explore" class="explore">Explore</a>
+                <a href="#booking" class="book">Book Now</a>
+            </section>
+        </main>
+    </header>
+    <!-- DESTINATION SECTION  -->
+    <section class="destination" id="destination">
+        <div class="destination-heading">
+            <br>
+            <br>
+            <span>Our destination</span>
+            <br>
+            <h1>Make Your Destination</h1>
+            <br>
+        </div>
+        <div class="box-container">
+            <!-- Ayodhya -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\ayodhya.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ayodhya</h3>
+                    <p>The birthplace of Rama and setting of the great epic Ramayana.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- lucknow -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\lucknow.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>lucknow</h3>
+                    <p>Lucknow was the capital of the Awadh region.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- Gorakhpur -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\Gorakhpur.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Gorakhpur</h3>
+                    <p>Gorakhpur has been the land of ancient glory and medieval mysticism.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- Agra -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\agra.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Agra</h3>
+                    <p>Agra is a city offering a discovery of the beautiful era.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- Vrindavan -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\Vrindavan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vrindavan</h3>
+                    <p>Vrindavan is the place where Lord Krishna is said to have spent most of his childhood.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!--prayagraj -->
+            <div class="box">
+                <div class="image">
+                    <img src="TTTimages\prayagraj.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prayagraj</h3>
+                    <p>The birthplace of Rama and setting of the great epic Ramayana.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <!-- About section  -->
+    <section id="about" class="about">
+        <br>
+        <br>
+        <div class="video-container">
+            <video src="videos\Uttar Pradesh Tourism - Promo ( 1080 X 1920 ).mp4" autoplay muted loop class="video">
+            </video>
+            <div class="about-content">
+                <span>About TourTrekTrip.</span>
+                <br>
+                <br>
+                <p>The TourTrekTrip , with a strong presence in inbound travel trade and corporate segment . The company with its professionally managed travel engine specializes mainly in organizing Adventure, Cultural, Religious.Customer satisfaction: It’s the prime motto of our business, which has helped us to build a good network with travellers from the farthest corners of the world.
+                </p>
+                <br>
+                <br>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+    <hr>
+    <!-- about page ends  -->
+
+    <!-- Book now page -->
+    <section id="booking" class="booking">
+        <br>
+        <br>
+        <span class="book-heading">BOOK NOW</span>
+        <div class="up-booking">
+            <div class="booking-image">
+                <img class="uplogoimage" src="TTTimages\up logo 2.png" alt="">
+            </div>
+            <div class="booking-form">
+                <form>
+                    <select class="input" name="where" id="where">
+                        <option class="option" value="Ayodhya">Ayodhya</option>
+                        <option class="option" value="lucknow">lucknow</option>
+                        <option class="option" value="Agra">Agra</option>
+                        <option class="option" value="Gorakhpur">Gorakhpur</option>
+                        <option class="option" value="Vrindavan">Vrindavan</option>
+                        <option class="option" value="prayagraj">Prayagraj</option>
+                    </select>
+                    <input class="input" type="number" placeholder="How Many ?">
+                    <input class="input" type="date" placeholder="when">
+                    <input class="input" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- EXPLORE SECTION -->
+    <section id="explore" class="explore">
+        <br>
+        <br>
+        <span class="Explore-heading">! EXPLORE THE ADVENTURE !</span>
+        <br>
+        <br>
+        <br>
+        <div class="wrapper">
+            <div class="slide">
+                <img src="TTTimages\explore 1.jpg" alt="">
+                <img src="TTTimages\explore 2.jpg" alt="">
+                <img src="TTTimages\explore 3.jpg" alt="">
+                <img src="TTTimages\explore 4.jpg" alt="">
+                <img src="TTTimages\explore 5.jpg" alt="">
+                <img src="TTTimages\explore 6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <hr>
+    <!-- FOOTER  -->
+    <footer>
+        <div class="inner-footer">
+            <div class="social-link">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                </ul>
+            </div> 
+       
+            <div class="quick-link">
+                <ul>
+                <li class="quick-items"><a href="#firstpage">Home</a></li>
+                <li class="quick-items"><a href="#destination">Destination</a></li>
+                <li class="quick-items"><a href="#about">About Us</a></li>
+                <li class="quick-items"><a href="#booking">Book Now</a></li>
+                <li class="quick-items"><a href="#explore">Explore</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright &copy; TourTrekTrip . All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
